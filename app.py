@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from research_agent import flatten_chain as chain
+from research_assistant import flatten_chain as chain
 from langserve import add_routes
 import uvicorn
 
